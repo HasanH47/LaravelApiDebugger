@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "HasanH47\\ApiDebugger\\ApiDebuggerServiceProvider"
+                "HasanH47\\LaravelApiDebugger\\ApiDebuggerServiceProvider"
             ]
         }
     },

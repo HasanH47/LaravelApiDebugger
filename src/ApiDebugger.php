@@ -1,6 +1,6 @@
 <?php
 
-namespace HasanH47\ApiDebugger;
+namespace HasanH47\LaravelApiDebugger;
 
 use Symfony\Component\HttpFoundation\JsonResponse;
 
