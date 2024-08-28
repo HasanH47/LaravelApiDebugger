@@ -2,27 +2,28 @@
     "name": "hasanh47/laravel-api-debugger",
     "description": "A simple API debugger for Laravel",
     "type": "library",
+    "require": {
+        "php": ">=8.0",
+        "symfony/http-foundation": "^7.1"
+    },
     "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hasanh47\\LaravelApiDebugger\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "HasanH47",
             "email": "hasan@hasanh47.my.id"
         }
     ],
-    "require": {
-        "php": ">=8.0",
-        "symfony/http-foundation": "^6.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "HasanH47\\ApiDebugger\\": "src/"
-        }
-    },
     "extra": {
         "laravel": {
             "providers": [
                 "HasanH47\\ApiDebugger\\ApiDebuggerServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
